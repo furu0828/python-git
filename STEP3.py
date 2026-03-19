@@ -11,3 +11,4 @@ df = pd.DataFrame({
 df["score"] = [70, 80, 90]
 
 print(df["age"].mean())
+print(df[df["income"] >= 500])
