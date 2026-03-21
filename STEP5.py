@@ -5,4 +5,5 @@ df = pd.DataFrame({
     "income": [300, 350, 500, 650, 800]
 })
 
+df["study_time"] = [1, 2, 2, 3, 5]
 print(df.corr())
